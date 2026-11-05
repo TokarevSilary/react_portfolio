@@ -1,0 +1,36 @@
+.button-filters {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.filter {
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+}
+
+.filter.selected {
+    background-color: black;
+    color: white;
+}
+
+.list_photo {
+    columns: 3;
+    column-gap: 12px;
+}
+
+.list_photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+    break-inside: avoid;
+}
+
+#root {
+    width: 60%;
+    margin: auto;
+}
